@@ -1,0 +1,17 @@
+// 3-mixin_margins.scss
+
+// Define a mixin that sets left and right margins
+@mixin set-margins($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+// Apply mixin to body with 10px
+body {
+  @include set-margins(10px);
+}
+
+// Apply mixin to div with 15px
+div {
+  @include set-margins(15px);
+}
