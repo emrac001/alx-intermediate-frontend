@@ -1,0 +1,18 @@
+Steps I took to install SASS:
+
+1. Navigated into the repository folder from my windows command line:
+   cd alx-intermediate-frontend
+
+2. Created a new directory for the SASS project and navigated into it:
+   mkdir 0x03-sass_scss
+   cd 0x03-sass_scss
+
+3. Made sure Node.js and npm are installed on my system.
+   node -v **output** v24.7.0
+   npm -v **output** 11.5.1
+
+4. Installed SASS (latest version) using npm:
+   npm install sass
+
+5. Verified the installation:
+   npx sass --version **output** 1.92.1 compiled with dart2js 3.9.2
